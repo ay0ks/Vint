@@ -144,6 +144,7 @@ public class BattleTank {
     public float Health { get; private set; }
     public float TotalHealth { get; set; }
     public float MaxHealth { get; }
+    public float Temperature { get; set; }
 
     public TemperatureProcessor TemperatureProcessor { get; }
 
